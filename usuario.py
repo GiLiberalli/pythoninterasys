@@ -1,6 +1,5 @@
 # 1 - imports
 import json
-
 import pytest
 import csv
 import requests
@@ -16,6 +15,7 @@ teste_dados_usuarios_atuais = [
     (1, 'George', 'Bluth', 'george.bluth@reqres.in') ,
     (2, 'Janet', 'Weaver', 'janet.weaver@reqres.in')         # usuario 2
 ]
+
 
 # CRUD/ ICAE                   #Traduções
 # Aplicações   APIS            APIs
@@ -71,4 +71,5 @@ def ler_dados_do_csv():
         print('Arquivo Não Encontrado')
     except Exception as fail:
         print(f'Falha Imprevista: {fail}')
+
 

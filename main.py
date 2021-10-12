@@ -6,7 +6,6 @@ import pytest
 def print_hi(name):
     print(f'Oi, {name}')
 
-
 def somar(numero1, numero2):
     return numero1 + numero2
 
